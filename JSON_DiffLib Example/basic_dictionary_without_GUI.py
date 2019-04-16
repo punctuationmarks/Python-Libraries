@@ -3,7 +3,7 @@ import json
 # difflib so you don't have to have exact spelling of word you're searching for 
 from difflib import get_close_matches
 
-dictionaryData = json.load(open("data.json"))  # insert whatever dictionary data you want here
+dictionaryData = json.load(open("webster_ditionary.json"))  # insert whatever dictionary data you want here
 
 
 def dictionaryDefinition(word):
